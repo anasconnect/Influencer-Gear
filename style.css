@@ -1,0 +1,114 @@
+body{
+    font-family: poppins;
+    margin: 0;
+}
+#brand-name{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 87px ;
+    margin-left: 120px;
+}
+#influencer{
+    display: flex;
+    margin-left: 120px;
+}
+
+.influencer-title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.click-button{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color:#e0205a;
+    padding: 10px 24px;
+    border-radius: 20px;
+}
+
+.image-effect:hover{
+    transform: scale(1.1);
+    transition: transform 2s;
+
+}
+article{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.adjust{margin-top: 100px;
+    margin-left: 120px;
+}
+
+.collection{
+    text-align: center;
+    color: gray;
+}
+h4{
+    font-weight: 700;
+    font-size: 28px;
+}
+.griding{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.dollar{
+    font-size: 24px;
+}
+.smaller-text{
+    font-size: 14px;
+}
+.smallest{
+    color: gray;
+}
+.fill{
+    color: #FB8200;
+}
+.see-more{
+    margin-top: 200px;
+    margin-left: 900px;
+    text-decoration: none;
+    color: hotpink;
+    font-size: 18px;
+}
+
+#januarysell{
+    margin-top: 87px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    padding: 40px 80px;
+    display: flex;
+    background-color: whitesmoke;
+}
+#january-sell-title{
+    font-size: 40px;
+    color: #8b0000;
+
+}
+
+#januarysell img{
+    width: 440px;
+}
+
+#january-sell-para{
+    font-size: 20px;
+    color: salmon;
+}
+footer{
+    width: 100%;
+    margin-top: 40px;
+    padding: 50px;
+    text-align: center;
+    background-color:#0A0826;
+    color: white;
+}
+.fa-twitter, .fa-facebook{
+    color: white;
+}
+
+
+
+/* ----------
+   media-query
+   ------------ */
