@@ -14,7 +14,7 @@ body{
     font-size: 24px;
     font-weight: 700;
     margin-top: 87px ;
-    margin-left: 120px;
+    margin-left: 30px;
 }
 #influencer{
     display: flex;
@@ -78,7 +78,6 @@ h4{
     color: #FB8200;
 }
 .see-more{
-    margin-top: 200px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -90,6 +89,7 @@ h4{
    January sell section
    --------------------- */
 #januarysell{
+    font-family: "Sofia", sans-serif;
     margin-top: 87px;
     width: 100%;
     margin-bottom: 50px;
@@ -111,7 +111,7 @@ h4{
 
 #january-sell-para{
     font-size: 20px;
-    color: salmon;
+    color: black;
 }
 
 /*-------------
@@ -125,8 +125,9 @@ footer{
     background-color:#0A0826;
     color: white;
 }
-.fa-twitter, .fa-facebook{
+.fa-twitter, .fa-facebook, .fa-instagram, .fa-youtube-play{
     color: white;
+    text-decoration: none;
 }
 
 
