@@ -2,6 +2,14 @@ body{
     font-family: poppins;
     margin: 0;
 }
+.adjust{margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+/* --------------
+   header section
+   ----------------- */
 #brand-name{
     font-size: 24px;
     font-weight: 700;
@@ -10,9 +18,11 @@ body{
 }
 #influencer{
     display: flex;
-    margin-left: 120px;
 }
 
+.influencer-info{
+    margin-bottom: 50px;
+}
 .influencer-title{
     font-size: 52px;
     font-weight: 700;
@@ -31,14 +41,16 @@ body{
     transition: transform 2s;
 
 }
+
+/*--------------
+ main section 
+ -----------------*/
 article{
     padding: 10px;
     border-radius: 10px;
     background-color: whitesmoke;
 }
-.adjust{margin-top: 100px;
-    margin-left: 120px;
-}
+
 
 .collection{
     text-align: center;
@@ -67,17 +79,21 @@ h4{
 }
 .see-more{
     margin-top: 200px;
-    margin-left: 900px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
     text-decoration: none;
     color: hotpink;
     font-size: 18px;
 }
-
+/* --------------
+   January sell section
+   --------------------- */
 #januarysell{
     margin-top: 87px;
-    margin-left: 120px;
+    width: 100%;
     margin-bottom: 50px;
-    padding: 40px 80px;
+    padding: 40px;
     display: flex;
     background-color: whitesmoke;
 }
@@ -88,13 +104,19 @@ h4{
 }
 
 #januarysell img{
-    width: 440px;
+    width: 350px;
+    margin-top: 20px;
+    padding-right: 20px;
 }
 
 #january-sell-para{
     font-size: 20px;
     color: salmon;
 }
+
+/*-------------
+ Footer 
+ ----------------*/
 footer{
     width: 100%;
     margin-top: 40px;
@@ -110,5 +132,27 @@ footer{
 
 
 /* ----------
-   media-query
+   media-queries
    ------------ */
+
+   /* For mobile devices */
+@media only screen and (max-width:688px) {
+    #influencer{
+        flex-direction: column;
+    }
+    .griding{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #januarysell{
+        flex-direction: column;
+    }
+    
+}
+
+/* For Tablet devices */
+@media only screen and (min-width:689px) and (max-width:980px) {
+    .griding{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
